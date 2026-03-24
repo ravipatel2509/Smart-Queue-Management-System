@@ -1,0 +1,143 @@
+/* 
+   Smart Queue System - Custom Styles
+   Theme: Formal Blue & White (Government/Hospital Style)
+*/
+
+/* --- 1. General Styles --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    /* Light Grey Background */
+    color: #333;
+    /* Sticky Footer Setup */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ensure main content expands to fill space */
+.container.mt-5 {
+    flex: 1;
+}
+
+h1,
+h2,
+h3 {
+    color: #0056b3;
+    /* Dark Blue for Headings */
+}
+
+/* --- 2. Navbar Styling --- */
+.navbar {
+    background-color: #004085;
+    /* Deep Blue */
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+    /* Yellow on hover */
+    text-decoration: underline;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #ffc107 !important;
+}
+
+/* --- 3. Hero Section (Home Page) --- */
+.hero-box {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn-primary-custom {
+    background-color: #0056b3;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-primary-custom:hover {
+    background-color: #003d82;
+}
+
+/* --- 4. Queue Status Display --- */
+.status-card {
+    background-color: #e9ecef;
+    border-left: 5px solid #0056b3;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.token-big {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #28a745;
+    /* Green for active number */
+}
+
+/* --- 5. Form & Cards (Booking Page) --- */
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.token-result-card {
+    border: 2px dashed #0056b3;
+    background-color: #f0f8ff;
+    /* AliceBlue */
+    padding: 20px;
+    text-align: center;
+    display: none;
+    /* Hidden by default */
+}
+
+/* --- 6. My Token Page --- */
+.user-token-display {
+    background: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.badge-status {
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+/* --- 7. Interactive Elements --- */
+.hover-effect {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+    transform: translateY(-10px);
+    /* Move Up */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+    /* Stronger Shadow */
+    cursor: pointer;
+    background-color: #f8f9fa;
+    /* Slight background highlight */
+}
